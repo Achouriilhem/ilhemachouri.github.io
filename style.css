@@ -2,7 +2,8 @@
   --bg:#0f1113;
   --card:#141518;
   --muted:#9aa0a6;
-  --accent:#7b61a8; /* بنفسجي هادي */
+  --accent:#9b6bff; /* Violet Canva doux */
+  --accent-dark:#7a4dd2;
   --text:#f3f4f6;
   --glass: rgba(255,255,255,0.03);
   --radius:10px;
@@ -61,21 +62,30 @@ body{
   text-decoration:none;
   border-bottom:1px dashed rgba(255,255,255,0.05);
 }
+
+/* 🎨 BOUTON VIOLET STYLE CANVA */
 .btn{
   display:inline-block;
-  margin-top:10px;
-  padding:8px 14px;
-  background:transparent;
-  color:var(--accent);
-  border:1px solid rgba(123,97,168,0.18);
-  border-radius:6px;
+  margin-top:14px;
+  padding:10px 20px;
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  border-radius:8px;
   text-decoration:none;
   font-weight:600;
+  transition:0.25s ease;
+  box-shadow:0 4px 14px rgba(155,107,255,0.35);
+}
+.btn:hover{
+  background:var(--accent-dark);
+  box-shadow:0 6px 18px rgba(155,107,255,0.55);
+  transform:translateY(-2px);
 }
 
 /* SECTIONS */
 main{padding:30px 0}
-section{margin-bottom:22px; background:transparent;}
+section{margin-bottom:22px;}
 h2{
   margin:0 0 12px 0;
   color:var(--accent);
