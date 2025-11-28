@@ -39,14 +39,7 @@ body{
   gap:18px;
   flex-wrap:wrap;
 }
-.avatar{
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  object-fit:cover;
-  border:3px solid var(--accent);
-  background:var(--glass);
-}
+
 .hero-text h1{
   margin:0 0 6px 0;
   font-size:28px;
